@@ -50,7 +50,9 @@ const Education = () => {
     <section id="education" className="py-14 relative">
       <div className="section-container">
         <div className="mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-primary/85">Education</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-primary/85 dark:text-foreground">
+            Education
+          </h2>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

@@ -22,7 +22,9 @@ const Experience = () => {
     <section id="experience" className="py-14 relative">
       <div className="section-container">
         <div className="mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-primary/85">Work Experience</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-primary/85 dark:text-foreground">
+            Work Experience
+          </h2>
         </div>
 
         <div className="relative">

@@ -311,6 +311,7 @@
   }
 
   .hero-glow,
+  .hero-photo-overlay,
   [style*="backgroundImage"],
   .animate-float {
     display: none !important;

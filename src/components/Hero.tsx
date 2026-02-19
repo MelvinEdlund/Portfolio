@@ -25,13 +25,13 @@ const Hero = () => {
                 className="w-full h-full object-cover object-top saturate-105 transition-all duration-700"
               />
               <div
-                className="absolute inset-0"
+                className="absolute inset-0 hero-photo-overlay hero-photo-overlay-sheen"
                 style={{
                   backgroundImage:
                     "radial-gradient(circle 120px at 0% 0%, rgba(224, 233, 245, 0.8) 0%, transparent 70%), radial-gradient(circle 120px at 100% 0%, rgba(224, 233, 245, 0.8) 0%, transparent 70%)",
                 }}
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-background/60 via-transparent to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-background/60 via-transparent to-transparent hero-photo-overlay hero-photo-overlay-vignette" />
             </div>
             <div className="absolute -top-3 -right-3 w-6 h-6 border-t-2 border-r-2 border-primary/50" />
             <div className="absolute -bottom-3 -left-3 w-6 h-6 border-b-2 border-l-2 border-primary/50" />
@@ -93,7 +93,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-float">
+        <div className="absolute bottom-4 left-1/2 -translate-x-1/2 animate-float">
           <a href="#skills" className="flex flex-col items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
             <span className="text-xs font-mono tracking-wider">Scroll</span>
             <ChevronDown className="w-5 h-5" />
