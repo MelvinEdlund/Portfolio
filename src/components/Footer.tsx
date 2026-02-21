@@ -1,5 +1,5 @@
 const Footer = () => {
-  const resumeUrl = `${import.meta.env.BASE_URL}MelvinEdlund-Resume.pdf`;
+  const resumeUrl = `${import.meta.env.BASE_URL}MelvinEdlund-CV.pdf`;
 
   return (
     <footer className="py-8 border-t border-border">
@@ -11,7 +11,7 @@ const Footer = () => {
             download
             className="inline-flex items-center gap-2 h-9 px-4 rounded-lg border border-border bg-background/70 text-xs font-medium text-foreground hover:border-primary/60 hover:bg-primary/10 transition-colors"
           >
-            download resume.pdf
+            Download CV.pdf
           </a>
           <p className="font-mono text-xs">
             Built with <span className="text-primary">passion</span> for code
